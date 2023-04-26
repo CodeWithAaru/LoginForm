@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+                         initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet"
+          href="slide_style.css">
+
+    
+
+<script src=
+"https://cdn.jsdelivr.net/npm/sweetalert2@9">
+    </script>
+</head>
+ 
+<body>
+    <header>
+        <h1 class="heading" style="display: inline-block;">Aryan    </h1>
+        <h3 class="heading1" style="display: inline-block;" > Singh</h3>
+        
+        <h3 class="title"> Login<b> & </b>Registration Form</h3>
+    </header>
+ 
+    <!-- container div -->
+    <div class="container">
+ 
+        <!-- upper button section to select
+             the login or signup form -->
+        <div class="slider"></div>
+        <div class="btn">
+            <button class="login">Login</button>
+            <button class="signup">Signup</button>
+        </div>
+ 
+        <!-- Form section that contains the
+             login and the signup form -->
+        <div class="form-section">
+ 
+            <!-- login form -->
+            <div class="login-box">
+                <input type="email"
+                       class="email ele"
+                       id="Aryan"
+                       placeholder="youremail@email.com">
+                <input type="password"
+                       class="password ele" id="aryanpass"
+                       placeholder="password">
+                <button class="clkbtn" onclick="Authenticate()">Login</button>
+            </div>
+ 
+            <!-- signup form -->
+            <div class="signup-box">
+                <input type="text"
+                       class="name ele"
+                       placeholder="Enter your name">
+                <input type="email"
+                       class="email ele"
+                       id="email"
+                       placeholder="youremail@email.com">
+                <input type="password"
+                       class="password ele"
+                       id="pass"
+                       placeholder="password">
+                <input type="password"
+                       class="password ele"
+                       placeholder="Confirm password">
+                <button class="clkbtn" onclick="Data_submit()">Signup</button>
+            </div>
+        </div>
+    </div>
+    <script src="slide_style.js"></script>
+</body>
+ 
+</html>
